@@ -1,4 +1,4 @@
-import { pbSource, pbTarget } from "../config/pocketbase";
+import { pbSource, pbTarget } from "../config/pocketbase.js";
 
 export const cleanTarget = async (collection) => {
   console.log("LOG:  ~ sync ~ collection:", collection);

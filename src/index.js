@@ -27,7 +27,6 @@ const shutdown = async () => {
 };
 
 try {
-  logger.info("✅ Successfully connected to redis");
   if (
     POCKETBASE_SOURCE_ADMIN === undefined ||
     POCKETBASE_SOURCE_ADMIN_PASSWORD === undefined ||
