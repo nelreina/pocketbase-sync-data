@@ -1,6 +1,6 @@
 # pocketbase-sync-data
 
-Simple Project to sync data between to Pocketbase instance
+Simple Project to sync data between to Pocketbase instances
 
 
 ### Install
@@ -17,4 +17,4 @@ npm i # or pnpm i
 - Edit .env file with the Admin credentials from Source and Target Pocketbase.
 
 - Put collection name(s) in the .env file collection keys 
- > IMPORTANT: if you have multiple collection the order of clearing and copy is important if there relations between collection 
+ > IMPORTANT: if you have multiple collections the order of clearing and copy is important if there relations between collections
